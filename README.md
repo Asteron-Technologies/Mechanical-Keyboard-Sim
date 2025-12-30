@@ -20,3 +20,9 @@ try:
 ```
 
 *You will also need to convert all of the sound files (m4a) to mp3. I think, because m4a is a MacOS thing. (Don't quote me) 
+
+## Credits
+
+Me - for everything
+KLACK Devs - for the sounds + me for recording them from their website and then spending ages splicing the separate keys. (They did not make it easy)
+Github Copilot - for researching about ways to play sounds
