@@ -6,11 +6,11 @@ I wanted to get KLACK because my friend had it and found out it was 5 usd. My da
 
 Run soundy.py with the required packages installed. Tested on Python 3.14.2, however should work on older python3 versions. You will need to enable key tracking for vscode / terminal
 
-# Needed packages
+### Needed packages
 
 Pynput - python -m pip install pynput
 
-# Slight problem
+### Slight problem
 
 It only supports MacOS. To get it to work on windows you will have to change the method of playing the sounds to something like WinSound (windows only), just change this line with your sound player and put file_path in the file path area.
 
