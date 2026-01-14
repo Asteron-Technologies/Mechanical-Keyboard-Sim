@@ -10,7 +10,7 @@ sounds = ["key1.m4a", "key2.m4a", "key3.m4a", "key4.m4a", "key5.m4a", "key6.m4a"
 def play_sound(file):
     # Resolve to an absolute path to avoid cwd issues
     base_dir = os.path.dirname(os.path.abspath(__file__))
-    file_path = os.path.join(base_dir, file)
+    file_path = os.path.join(base_dir, "audio files", file)
 
     # Run afplay in a separate thread so key presses don't block
     try:
