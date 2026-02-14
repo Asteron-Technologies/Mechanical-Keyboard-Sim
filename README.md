@@ -13,22 +13,18 @@ Key Features
 
    - Python 3.13 Ready: Uses audioop-lts to ensure compatibility with the latest Python releases where the original audioop was deprecated.
 
-Quick Start
-1. Prerequisites
-
-Ensure you have Python 3.8 or higher installed.
-2. Installation
+#Ensure you have Python 3.8 or higher installed.
 
 Clone the repository and install the required dependencies:
 Bash
 
 pip install -r requirements.txt
 
-3. Audio Setup
+Make sure to unzip the audio file.
 
 4. Running the Engine
 
-Simply run the script. It works globally—you do not need to keep the terminal focused to hear the sounds.
+Simply run "python main.py". It works globally you do not need to keep the terminal focused to hear the sounds.
 Bash
 
 python keyboard_engine.py
