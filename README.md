@@ -3,15 +3,15 @@ Mechanical Keyboard Engine
 A high-performance, low-latency keyboard sound emulator built with Python 3.13 compatibility. This engine transforms your standard typing experience into an auditory journey with real-time audio processing.
 Key Features
 
-    Spatial Audio Panning: Sounds are dynamically panned from left to right based on the key's physical position on a QWERTY layout.
+   - Spatial Audio Panning: Sounds are dynamically panned from left to right based on the key's physical position on a QWERTY layout.
 
-    Dynamic Velocity: Volume and texture scale based on your typing speed—the faster you type, the more intense the feedback.
+   - Dynamic Velocity: Volume and texture scale based on your typing speed—the faster you type, the more intense the feedback.
 
-    Humanization Layer: Includes micro-timing jitter and pitch variations to prevent the robotic effect of repetitive samples.
+   - Humanization Layer: Includes micro-timing jitter and pitch variations to prevent the robotic effect of repetitive samples.
 
-    Built-in Limiter: A real-time software limiter prevents audio clipping during rapid-fire typing sessions.
+   - Built-in Limiter: A real-time software limiter prevents audio clipping during rapid-fire typing sessions.
 
-    Python 3.13 Ready: Uses audioop-lts to ensure compatibility with the latest Python releases where the original audioop was deprecated.
+   - Python 3.13 Ready: Uses audioop-lts to ensure compatibility with the latest Python releases where the original audioop was deprecated.
 
 Quick Start
 1. Prerequisites
@@ -25,20 +25,6 @@ Bash
 pip install -r requirements.txt
 
 3. Audio Setup
-
-The engine looks for a folder named audio or audio files in the same directory as the script. Your folder structure should look like this:
-Plaintext
-
-.
-├── keyboard_engine.py
-├── requirements.txt
-└── audio/
-    ├── space.wav
-    ├── enter.wav
-    ├── cmd.wav
-    ├── key1.wav
-    ├── key2.wav
-    └── ... (up to key24.wav)
 
 4. Running the Engine
 
